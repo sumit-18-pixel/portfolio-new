@@ -1,146 +1,116 @@
-# Harshit Raghuwanshi — Portfolio
+# Sumit Kohli — Portfolio
 
-A high-performance, responsive, and aesthetically premium personal portfolio built with React, Vite, Tailwind CSS, and TypeScript. Designed with a minimalist retro-terminal aesthetic combined with modern typography, interactive animations, and a structured grid-based layout.
+> **Building Modern Web Experiences, Automating Real-World Solutions & Exploring Cybersecurity.**
 
-## Tech Stack
+A high-performance, responsive, and modern personal developer portfolio built with React, Vite, Tailwind CSS, and TypeScript. Featuring a sleek dark aesthetic, smooth animations, interactive widgets, and clean typography.
 
-- **Core & Routing:** React 18 & React Router v6
-- **Build Tool:** Vite 6
-- **Styling:** Tailwind CSS with custom premium typography
-- **Animations:** Framer Motion for fluid transitions, interactive hover effects, and layout animations
-- **Analytics:** @vercel/analytics for web traffic insights
-- **Icons:** @iconify/react & lucide-react
-- **Backend & APIs:** Node.js, Express.js, REST APIs
-- **Database:** MongoDB & Mongoose
-- **Authentication:** JWT & Google OAuth
-- **AI:** OpenAI API, Gemini API, LangChain, LangGraph, Mistral AI & RAG
-- **DevOps:** Docker, AWS, Git, GitHub & Vercel
+---
 
-## Features
+## 👨‍💻 About Me
 
-- **Retro Grid Portfolio Design:** Minimalist grid-based interface with typography-focused layouts, subtle borders, animations, and responsive design.
+I'm **Sumit Kohli**, a third-year Computer Science Engineering student passionate about **Web Development**, **Cybersecurity**, and **Automation**. I enjoy building modern, responsive, and user-friendly web applications that solve real-world problems.
 
-- **Interactive Profile Section:** Personalized profile presentation with interactive elements and smooth Framer Motion animations.
+- 📍 **Location:** Pithoragarh, Uttarakhand, India
+- 🎓 **Education:** B.Tech in Computer Science Engineering (3rd Year)
+- ✉️ **Email:** [sumitkingkohlisk@gmail.com](mailto:sumitkingkohlisk@gmail.com)
+- 🌐 **Portfolio Repo:** [sumit-18-pixel/portfolio-new](https://github.com/sumit-18-pixel/portfolio-new)
 
-- **Search Command Palette:** Keyboard-accessible command menu with shortcuts for navigating portfolio sections and accessing external links.
+---
 
-- **Interactive GitHub Contributions Matrix:** Fetches GitHub contribution data and displays it as a responsive contribution heatmap.
+## 🛠️ Tech Stack & Skills
 
-- **Animated Tech Stack:** Filterable technology section with categories for Languages, Frontend, Backend, Databases, DevOps & Cloud, and AI.
+### Web & Frontend
+- **Languages:** HTML5, CSS3, JavaScript (ES6+)
+- **Frameworks & Libraries:** React, Vite, Tailwind CSS
+- **Design & UI:** Responsive Web Design, Framer Motion, GSAP animations
 
-- **Project Showcase:** Dedicated project section highlighting full-stack, frontend, AI, and DevOps projects with technology stacks and project links.
+### Backend & Databases
+- **Runtime & Frameworks:** Node.js, Express.js
+- **Architecture:** REST APIs, Modular MVC/DAO patterns
+- **Database:** MongoDB, Mongoose
 
-- **Experience Section:** Displays professional experience including internship and mentoring roles with animated timeline-style presentation.
+### Tools & DevOps
+- **Version Control:** Git, GitHub
+- **Containers & Virtualization:** Docker
+- **Operating Systems:** Linux, Kali Linux
+- **Workflow Automation:** n8n
 
-- **Responsive Navigation:** Smooth desktop and mobile navigation with section-based scrolling and animated interactions.
+### Areas of Interest & Security
+- **Cybersecurity & Network Security**
+- **Ethical Hacking & Penetration Testing workflows**
+- **Capture The Flag (CTF) challenges**
+- **Process & Workflow Automation**
 
-- **Visitor Counter:** Tracks portfolio visits using a lightweight visitor-counting system.
+---
 
-- **Smooth Animations:** Framer Motion animations throughout the interface for page transitions, interactive elements, layout changes, and hover states.
+## 🚀 Featured Projects
 
-## Featured Projects
+### 1. Gym Management & Automation Bot
+A Telegram-based automation bot designed to simplify gym operations and help gym owners efficiently manage their members, subscriptions, and payments.
 
-### LinksHub
+- **Tech Stack:** Node.js, Telegram Bot API, MongoDB, Express.js, REST APIs
+- **Key Features:**
+  - Member registration and profile management
+  - Membership subscription and expiry tracking
+  - Paid and unpaid fee tracking
+  - Automated expiry notifications and reminders directly through Telegram
+  - Centralized dashboard and member information management
 
-A full-stack developer profile and link management platform built with the MERN stack.
+### 2. Personal Portfolio Website
+A modern, interactive developer portfolio showcasing technical skills, automation workflows, and cybersecurity learning journey with an interactive UI.
 
-**Tech:** React, Vite, TanStack Query, Node.js, Express.js, MongoDB, Cloudinary, Gemini API
+- **Tech Stack:** React, TypeScript, Tailwind CSS, Vite, Framer Motion, GSAP
+- **Key Features:**
+  - Modern dark aesthetic with emerald accents
+  - Interactive Command Palette (`⌘K` / `Ctrl+K`)
+  - Live GitHub contribution activity graph integration
+  - Interactive pixel football minigame ("You vs Sumit")
+  - Filterable skill tabs and dynamic responsive layouts
 
-**Features:**
-- JWT authentication with HTTP-only cookies
-- Profile settings
-- AI bio generation
-- QR code profile sharing
-- Public profiles
-- Link analytics
-- Drag-and-drop link management
-- Soft delete and restore
-- Link preview metadata
-- Linktree import
+---
 
-**Live:** https://linkshub-np0r.onrender.com/
+## 🎯 Practical Experience
 
-**GitHub:** https://github.com/harshit403-pixel/LinksHub
+- **Independent Projects & Automation Developer (2024 – Present):**
+  Building automated bots, web applications, and backend services. Developed a Telegram-based Gym Management & Automation Bot using Node.js and MongoDB to streamline member subscriptions, payments, and automated alerts.
 
-### LinksUp
+- **Cybersecurity & CTF Practice (2024 – Present):**
+  Actively exploring Linux and Kali Linux environments, network protocols, ethical hacking methodologies, and participating in CTF (Capture The Flag) problem-solving challenges.
 
-An AI-powered platform that helps developers make their GitHub projects easier for recruiters to understand.
+---
 
-Developers can import GitHub repositories and use AI-powered embeddings and vector search to generate meaningful project summaries beyond the limited number of projects typically shown on a resume.
+## 🌐 Connect With Me
 
-**Tech:** React, Node.js, Express.js, MongoDB, LangChain, LangGraph, Gemini API, Vector Search
+- **GitHub:** [@sumit-18-pixel](https://github.com/sumit-18-pixel)
+- **LinkedIn:** [Sumit Kohli](https://www.linkedin.com/in/sumit-kohli-199681379/)
+- **Twitter / X:** [@SumitKohi1818](https://x.com/SumitKohi1818)
+- **Discord:** `sumitkohli2817`
+- **Email:** [sumitkingkohlisk@gmail.com](mailto:sumitkingkohlisk@gmail.com)
 
-### DeployIt
+---
 
-A deployment and infrastructure project focused on containerized applications and Kubernetes-based deployment workflows.
+## ⚡ Getting Started Locally
 
-**Tech:** Docker, Docker Compose, Kubernetes, Ingress, Redis, Node.js
-
-**Status:** In Progress
-
-### AI FAQ Generator
-
-An AI-powered tool that converts website or product information into structured FAQ content.
-
-Users provide information about a website or product and the application generates FAQ questions and answers that are presented through an interactive accordion interface.
-
-**Tech:** React, Vite, Node.js, Express.js, Gemini API
-
-### Voice RAG
-
-A voice-enabled Retrieval-Augmented Generation system combining speech recognition, vector retrieval, and AI-generated responses.
-
-**Pipeline:**
-
-Voice Input → Speech-to-Text → Chunking → Vector Retrieval → AI Response
-
-**Tech:** React, GSAP, Framer Motion, LangChain, Mistral AI, Vector Database
-
-## Experience
-
-### Ethar AI
-**Post-LLM Training Intern**
-
-April 2026 – May 2026
-
-Worked on post-LLM training workflows and AI-related tasks.
-
-### Not Your College
-**Web Developer Mentor**
-
-September 2026 – Present
-
-Mentoring developers and helping with web development concepts, projects, and implementation.
-
-## Achievements
-
-- **NamasteDev Hackathon 2026:** Top 30% among 1000+ participants
-- **KBG Hackathon 2026:** Top 30 teams among 1000+ participants; presented at IIT Mandi
-- **Smart India Hackathon:** Led a team of 5 and advanced to Round 2
-
-## Skills
-
-### Languages
-JavaScript, TypeScript, C++
-
-### Frontend
-React, Next.js, Tailwind CSS, GSAP, Framer Motion, Redux Toolkit, TanStack Query
-
-### Backend
-Node.js, Express.js, REST APIs, Socket.IO, JWT, Google OAuth
-
-### Databases
-MongoDB, Mongoose
-
-### DevOps & Cloud
-Docker, AWS, Vercel, Git, GitHub, Postman
-
-### AI
-OpenAI API, Gemini API, LangChain, LangGraph, Mistral AI, RAG
-
-## Getting Started
-
-First, install the dependencies:
+Clone the repository and install dependencies:
 
 ```bash
+# Clone the repository
+git clone https://github.com/sumit-18-pixel/portfolio-new.git
+
+# Navigate into the project directory
+cd portfolio-new
+
+# Install dependencies
 npm install
+
+# Start the local development server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).

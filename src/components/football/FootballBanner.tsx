@@ -163,7 +163,7 @@ export function FootballBanner() {
           type="button"
           onClick={(e) => { e.stopPropagation(); openGame(); }}
           className="absolute bottom-2 right-2 flex items-center gap-2 border border-white/30 bg-black/70 px-3 py-1.5 font-mono text-[11px] font-semibold uppercase tracking-widest text-white backdrop-blur transition-colors hover:bg-white hover:text-black"
-          aria-label="Play football against Harshit"
+          aria-label="Play football against Sumit"
         >
           Play me
         </button>
@@ -375,7 +375,7 @@ function GameModal({ onClose }: { onClose: () => void }) {
             {ui.phase === "ready" && (
               <Overlay>
                 <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-white/60">
-                  <span className="text-red-400">You</span> vs <span className="text-blue-400">Harshit</span>
+                  <span className="text-red-400">You</span> vs <span className="text-blue-400">Sumit</span>
                 </p>
                 <h2 className="mt-1 font-mono text-base font-bold uppercase tracking-widest text-white sm:text-xl">
                   First to {WIN_SCORE} goals wins

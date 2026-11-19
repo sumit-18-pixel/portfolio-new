@@ -46,32 +46,32 @@ const hoverCardsData: Record<
   }
 > = {
   github: {
-    handle: "@harshit403-pixel",
-    bio: "Full Stack Developer building modern web applications, backend systems, and AI-powered products.",
-    stats: ["Full Stack Developer", "Open Source"],
-    bannerText: "build • learn • ship",
+    handle: `@${site.github.username}`,
+    bio: "Web Developer & Cybersecurity Enthusiast passionate about building web apps, automation bots, and CTFs.",
+    stats: ["Web Development", "Cybersecurity"],
+    bannerText: "build • automate • secure",
   },
 
   linkedin: {
     pronouns: "He/Him",
-    handle: "in/harshit-raghuwanshi-278243281",
-    bio: "Full Stack Developer interested in backend engineering, system design, AI, and building real-world software products.",
-    stats: ["Software Engineering", "Open to Opportunities"],
-    bannerText: "connect • build • grow",
+    handle: "in/sumit-kohli-199681379",
+    bio: "CS Student & Web Developer interested in modern web development, backend automation, and cybersecurity.",
+    stats: ["Web Developer", "Cybersecurity Enthusiast"],
+    bannerText: "connect • build • explore",
   },
 
   email: {
-    handle: "YOUR_EMAIL@gmail.com",
-    bio: "Feel free to reach out for software engineering opportunities, collaborations, projects, or technical discussions.",
+    handle: site.email,
+    bio: "Feel free to reach out for web development opportunities, automation projects, or security discussions.",
     stats: ["Direct Contact", "Open to Opportunities"],
     bannerText: "connect • collaborate • build",
   },
 
   resume: {
     handle: "Curriculum Vitae",
-    bio: "My resume covering my software engineering skills, projects, experience, education, and achievements.",
-    stats: ["Skills", "Projects", "Experience"],
-    bannerText: "skills • projects • experience",
+    bio: "My resume covering my technical skills, web projects, automation bots, and education.",
+    stats: ["Skills", "Projects", "Interests"],
+    bannerText: "skills • projects • security",
   },
 };
 

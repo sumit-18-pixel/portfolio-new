@@ -6,100 +6,75 @@ import { Icon } from "@iconify/react";
 
 const CATEGORY_ICONS: Record<string, string> = {
   All: "lucide:layers",
-  Languages: "lucide:code-2",
   Frontend: "lucide:layout",
   Backend: "lucide:server",
-  Databases: "lucide:database",
-  "DevOps & Cloud": "lucide:cloud",
-  AI: "lucide:sparkles",
+  "DevOps & Linux": "lucide:terminal",
+  Cybersecurity: "lucide:shield-check",
+  Automation: "lucide:bot",
 };
 
 const SKILL_ICONS: Record<string, string> = {
+  HTML5: "logos:html-5",
+  CSS3: "logos:css-3",
   JavaScript: "logos:javascript",
-  TypeScript: "logos:typescript-icon",
-  "C++": "logos:c-plusplus",
-
-  React: "logos:react",
-  "Next.js": "logos:nextjs-icon",
-  "Tailwind CSS": "logos:tailwindcss-icon",
-  GSAP: "simple-icons:greensock",
-  "Framer Motion": "simple-icons:framer",
-  "Redux Toolkit": "logos:redux",
-  "TanStack Query": "simple-icons:reactquery",
+  "Responsive Design": "lucide:smartphone",
 
   "Node.js": "logos:nodejs-icon",
-  "Express.js": "logos:express",
+  "Express.js": "simple-icons:express",
   "REST APIs": "lucide:braces",
-  "Socket.IO": "simple-icons:socketdotio",
-  JWT: "logos:jwt-icon",
-  "Google OAuth": "logos:google-icon",
-
   MongoDB: "logos:mongodb-icon",
-  Mongoose: "simple-icons:mongoose",
-
-  Docker: "logos:docker-icon",
-  AWS: "logos:aws",
-  Vercel: "logos:vercel-icon",
 
   Git: "logos:git-icon",
   GitHub: "logos:github-icon",
-  Postman: "logos:postman-icon",
+  Docker: "logos:docker-icon",
+  Linux: "logos:linux-tux",
+  "Kali Linux": "simple-icons:kalilinux",
 
-  "OpenAI API": "simple-icons:openai",
-  "Gemini API": "simple-icons:googlegemini",
-  LangChain: "simple-icons:langchain",
-  LangGraph: "lucide:workflow",
-  Mistral: "lucide:brain",
-  RAG: "lucide:database-zap",
+  n8n: "simple-icons:n8n",
+  Cybersecurity: "lucide:shield-check",
+  "Ethical Hacking": "lucide:terminal-square",
+  CTF: "lucide:flag",
+  Networking: "lucide:network",
+  Automation: "lucide:cpu",
 };
 
 const skillCategories: Record<string, string[]> = {
-  Languages: [
-    "JavaScript",
-    "TypeScript",
-    "C++",
-  ],
-
   Frontend: [
-    "React",
-    "Next.js",
-    "Tailwind CSS",
-    "GSAP",
-    "Framer Motion",
-    "Redux Toolkit",
-    "TanStack Query",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Responsive Design",
   ],
 
   Backend: [
     "Node.js",
     "Express.js",
     "REST APIs",
-    "Socket.IO",
-    "JWT",
-    "Google OAuth",
-  ],
-
-  Databases: [
     "MongoDB",
-    "Mongoose",
   ],
 
-  "DevOps & Cloud": [
-    "Docker",
-    "AWS",
-    "Vercel",
+  "DevOps & Linux": [
     "Git",
     "GitHub",
-    "Postman",
+    "Docker",
+    "Linux",
+    "Kali Linux",
   ],
 
-  AI: [
-    "OpenAI API",
-    "Gemini API",
-    "LangChain",
-    "LangGraph",
-    "Mistral",
-    "RAG",
+  Cybersecurity: [
+    "Cybersecurity",
+    "Ethical Hacking",
+    "CTF",
+    "Networking",
+    "Kali Linux",
+    "Linux",
+  ],
+
+  Automation: [
+    "Automation",
+    "n8n",
+    "Node.js",
+    "REST APIs",
   ],
 };
 
@@ -111,12 +86,11 @@ export function TechStack() {
 
   const categories = [
     "All",
-    "Languages",
     "Frontend",
     "Backend",
-    "Databases",
-    "DevOps & Cloud",
-    "AI",
+    "DevOps & Linux",
+    "Cybersecurity",
+    "Automation",
   ];
 
   const filteredSkills =

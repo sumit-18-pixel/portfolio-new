@@ -7,24 +7,24 @@ type Thing = { name: string; cap: string };
 
 // Order = order they are dealt around the loader ring (first one sits at the top).
 const THINGS: Thing[] = [
-  { name: "mark-socialnetwork", cap: "Hi, I'm Harshit" },
+  { name: "mark-socialnetwork", cap: "Hi, I'm Sumit" },
   { name: "luffy-hat", cap: "Building cool things" },
-  { name: "peace-hand", cap: "Video editor at heart" },
-  { name: "cone", cap: "MERN stack developer" },
+  { name: "peace-hand", cap: "Web & Security developer" },
+  { name: "cone", cap: "Automation & Node.js" },
   { name: "coffee", cap: "Fueled by late nights" },
   { name: "goo", cap: "Turning ideas into products" },
-  { name: "heart", cap: "Open source enthusiast" },
-  { name: "nori-headphones", cap: "Building AI agents" },
-  { name: "blob-burst", cap: "Hackathons & experiments" },
+  { name: "heart", cap: "Cybersecurity enthusiast" },
+  { name: "nori-headphones", cap: "Linux & CTF explorer" },
+  { name: "blob-burst", cap: "Automation bots & scripts" },
   { name: "flame", cap: "Breaking things, fixing things" },
   { name: "nori-laptop", cap: "Full-stack in progress" },
-  { name: "elon-visionary", cap: "Dreaming, designing, shipping" },
+  { name: "elon-visionary", cap: "Securing, building, shipping" },
   { name: "sparkles", cap: "Always building something" },
-  { name: "app-badge", cap: "Indie hacker mindset" },
+  { name: "app-badge", cap: "Curious hacker mindset" },
   { name: "curious-globe", cap: "Exploring the world of tech" },
   { name: "sparkles", cap: "Made with curiosity" },
 ];
-const WORD = "Harshit Codes";
+const WORD = "Sumit Codes";
 const OWN: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 const MODES = ["Lens", "Pop", "Wave", "Sticker", "Burst"] as const;
 const BURST = 4;

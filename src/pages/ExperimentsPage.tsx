@@ -35,7 +35,7 @@ const experiments: Experiment[] = [
     href: "/experiments/404",
   },
   {
-    title: "Harshit Type Motion",
+    title: "Sumit Type Motion",
     description: "Type that comes alive",
     category: "typography",
     image: "/profile2.webp",

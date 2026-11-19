@@ -215,7 +215,7 @@ export function ResultScreen({
               "You win!"
             ) : (
               <>
-                <span className="block sm:inline">Harshit</span> <span className="block sm:inline">wins</span>
+                <span className="block sm:inline">Sumit</span> <span className="block sm:inline">wins</span>
               </>
             )}
           </h2>
@@ -234,7 +234,7 @@ export function ResultScreen({
             className="font-mono font-bold uppercase tracking-widest"
             style={{ color: BLUE, opacity: youWon ? 0.65 : 1, fontSize: 11 * u }}
           >
-            Harshit
+            Sumit
           </p>
         </div>
         

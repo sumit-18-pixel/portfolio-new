@@ -1,4 +1,5 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from "react";
+import { site } from "@/config/site";
 import "./Preloader.css";
 
 /**
@@ -318,7 +319,7 @@ export function PortfolioPreloader({
             <div className="pl-guide-v" style={{ left: col.r }} />
           </>
         )}
-        <span className="pl-note" style={{ left: 18, bottom: 16 }}>sheet 01 · harshit · setting out</span>
+        <span className="pl-note" style={{ left: 18, bottom: 16 }}>sheet 01 · {site.firstName.toLowerCase()} · setting out</span>
         <span className="pl-note" style={{ right: 18, bottom: 16 }}>issue 01 · {Math.round(col ? col.r - col.l : 0)}px column</span>
 
         {items.map((it, i) => {

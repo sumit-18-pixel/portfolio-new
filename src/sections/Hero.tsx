@@ -12,10 +12,10 @@ import FolderComponent from "@/components/FolderComponent";
 
 
 const HEADLINE_TITLES = [
-  "Full Stack Developer",
-  "Software Engineer",
-  "Creative Developer",
-  "AI & Backend Builder",
+  "Web Developer",
+  "Cybersecurity Enthusiast",
+  "Automation Developer",
+  "Backend & Linux Explorer",
 ];
 
 export function Hero({ onOpenPalette }: { onOpenPalette?: () => void }) {
